@@ -1,8 +1,20 @@
 {
+  "name": "openmusicapi_consumer",
+  "version": "1.0.0",
+  "description": "Dicoding Submission",
+  "scripts": {
+    "lint": "eslint src"
+  },
+  "author": "Muhammad Imam",
+  "license": "ISC",
   "dependencies": {
     "amqplib": "^0.10.3",
     "dotenv": "^16.0.3",
     "nodemailer": "^6.9.0",
     "pg": "^8.8.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.32.0",
+    "eslint-config-google": "^0.14.0"
   }
 }

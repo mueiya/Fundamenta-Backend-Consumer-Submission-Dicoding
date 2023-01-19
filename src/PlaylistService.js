@@ -1,5 +1,5 @@
-const { Pool } = require('pg');
-    
+const {Pool} = require('pg');
+
 class PlaylistService {
   constructor() {
     this.pool = new Pool();
@@ -31,7 +31,7 @@ class PlaylistService {
 
     console.log(playlist.rows[0]);
 
-    return {playlist: playlist.rows[0]}
+    return {playlist: playlist.rows[0]};
   }
 }
 
