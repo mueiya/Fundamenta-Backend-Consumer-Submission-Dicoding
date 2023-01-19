@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "Dicoding Submission",
   "scripts": {
+    "start": "node ./src/consumer.js",
     "lint": "eslint src"
   },
   "author": "Muhammad Imam",
