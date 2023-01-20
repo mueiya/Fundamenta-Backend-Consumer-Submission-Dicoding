@@ -2,6 +2,9 @@ const nodemailer = require('nodemailer');
 
 class MailSender {
   constructor() {
+    /**
+     * deconstuct nodemailer transport with dotenv configuration.
+     */
     this._transporter = nodemailer.createTransport({
       host: process.env.MAIL_HOST,
       port: process.env.MAIL_PORT,
